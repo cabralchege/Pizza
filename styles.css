@@ -1,8 +1,9 @@
 h1{text-align: center;
 font-size: 10em;}
 
-.home{background-image: url(/img/sammy-joonhee-TXJlNzyNaBA-unsplash.jpg);
+.home{background-image: url(/img/home.jpeg);
     background-repeat: no-repeat;
+    background-size: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
