@@ -1,5 +1,6 @@
 h1{text-align: center;
-font-size: 10em;}
+font-size: 10em;
+}
 
 .home{background-image: url(/img/home.jpeg);
     background-repeat: no-repeat;
@@ -15,9 +16,20 @@ font-size: 10em;}
     padding-bottom: 150px;
     padding-top: 150px;
     color: white;
-
-
+    font-family: 'Trade Winds';font-size: 22px;
 }
 p{color: black;
 font-size: xx-large;
-font-family: 'Alex Brush';font-size: 40px;}
+font-family: 'Alex Brush';font-size: 40px;
+}
+
+h2{text-align: center;
+    text-emphasis: bold;
+    font-size: xx-large;
+    font-family: 'Trade Winds';font-size: 22px;
+}
+
+#about{
+    font-family: 'Yeseva One';font-size: 22px;
+}
+    
