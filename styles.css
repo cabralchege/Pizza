@@ -4,6 +4,7 @@ font-size: 10em;}
 .home{background-image: url(/img/home.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
+    background-attachment: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;
