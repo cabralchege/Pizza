@@ -54,7 +54,7 @@ h2{text-align: center;
     background-color: #000;
   }
   
-  /* Current/active navbar link */
+  
   .active {
     background-color: red;
   }
@@ -67,4 +67,6 @@ h2{text-align: center;
     }
   }
   
+  #btn{text-align: center;
+color: red;}
     
