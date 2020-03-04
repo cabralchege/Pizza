@@ -20,7 +20,7 @@
 
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid" style="background: transparent;">
         <div class="orderhtml" id="#order">
             <a href="index.html"><button type="submit" form="form1" value="Submit" id="btn2"> <i class="fa fa-home"
             aria-hidden="true"></i>&nbsp; HOME </button></a>
@@ -39,14 +39,14 @@
     </div>
     <div class="col-md-4">
         <h4>TOPPINGS</h4>
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmBDk2ruHiPPHlGLGeU-1NAlUcukFiUPILddxRBSL19kcQe4Ji" height="200px" width="200px">
-        <button type="submit" form="form1" value="Submit" id="ok">ADD TO CART&nbsp; &nbsp; <i
+        <img src="https://bit.ly/2xabvzh" height="200px" width="250px">
+        <button type="submit" form="form1" value="Submit" id="ok"  onclick="getToppings();">ADD TO CART&nbsp; &nbsp; <i
                 class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; &nbsp;</button>
     </div>
-    <div id="#flip">    
+    <!-- <div id="#flip">     -->
         <div class="col-md-4">
             <h4>Pizza Size</h4>
-                <img src="https://bit.ly/2WTu8QT" height="250px" width="250px">
+                <img src="https://bit.ly/38ltDmD" height="200px" width="250px">
             </div>
     </div>
                 <div id="panel"><button type="submit" form="form1" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
@@ -73,7 +73,7 @@
                     </div>
                     <div class="col-md-3">
 
-                        <label for="crustS" style="color:red">Crust</label>
+                        <label for="crusts" style="color:red">Crust</label>
                         <select class="browser-default custom-select" id="crust">
                             <option value="">Choose option</option>
                             <option value="150">Crispy =ksh 150</option>
@@ -98,11 +98,11 @@
                     <div class="col-md-3">
 
                         <label for="quantity" style="color: red">Quantity</label>
-                        <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                        <input class="form-control" type="text" name="pizza" id="quantity" placeholder="0" max=""
                             min="0">
-                    </div><br><br><br><br><br><br>
+                    </div><br><br><br><br><br>
                     <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
-                        onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                        onclick="getTotalAmount();"><strong>Finish Order</strong></button>
                 </div>
             </form>
 
@@ -110,5 +110,8 @@
         </div>
     </div>
     </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
