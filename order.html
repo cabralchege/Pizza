@@ -39,12 +39,72 @@
     </div>
     <div class="col-md-4">
         <h4>TOPPINGS</h4>
-        <img src="https://bit.ly/32wmEVa" height="250px" width="250px">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSmBDk2ruHiPPHlGLGeU-1NAlUcukFiUPILddxRBSL19kcQe4Ji" height="200px" width="200px">
         <button type="submit" form="form1" value="Submit" id="ok">ADD TO CART&nbsp; &nbsp; <i
                 class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; &nbsp;</button>
     </div>
-    <
+    <div id="#flip">    
+        <div class="col-md-4">
+            <h4>Pizza Size</h4>
+                <img src="https://bit.ly/2WTu8QT" height="250px" width="250px">
+            </div>
+    </div>
+                <div id="panel"><button type="submit" form="form1" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
+                    aria-hidden="true"></i>&nbsp; &nbsp;</button>
+                </div>
+
         
+    
+    
+    
+    <div class="container">
+        <div id="form">
+            <form>
+                <div class="row">
+                    <div class="col-md-3">
+
+                        <label for="size" style="color:red">Size</label>
+                        <select class="browser-default custom-select" id="size">
+                            <option value="">Choose option</option>
+                            <option value="1000">Large =ksh 1000</option>
+                            <option value="800">Medium =ksh 800</option>
+                            <option value="500">Small= ksh500</option>
+                        </select><br>
+                    </div>
+                    <div class="col-md-3">
+
+                        <label for="crust" style="color:red">Crust</label>
+                        <select class="browser-default custom-select" id="crust">
+                            <option value="">Choose option</option>
+                            <option value="150">Crispy =ksh 150</option>
+                            <option value="100">Meat-stuffed=ksh 300</option>
+                            <option value="70">Cheese-filled =ksh 170</option>
+                            <option value="70">Thin =ksh 170</option>
+                            <option value="70">Thick =ksh 170</option>
+                        </select><br>
+                    </div>
+                    <div class="col-md-3">
+
+                        <label for="toppings" name="toppings" style="color:red">Toppings</label>
+                        <select class="browser-default custom-select" id="toppings">
+                            <option value="">Choose option</option>
+                            <option value="60">Extra cheese =ksh220</option>
+                            <option value="60">pepperoni =ksh200</option>
+                            <option value="60">green papers =ksh70</option>
+                            <option value="60">bacon =ksh100</option>
+                            <option value="60">onions =ksh10</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+
+                        <label for="quantity" style="color: red">Quantity</label>
+                        <input class="form-control" type="text" name="pizza" id="quan" placeholder="0" max=""
+                            min="0">
+                    </div><br><br><br><br><br><br>
+                    <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+                        onclick="getTotalAmount();"><strong>Checkout</strong></button>
+                </div>
+            </form>
 
 
         </div>

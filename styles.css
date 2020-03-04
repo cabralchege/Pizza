@@ -2,7 +2,7 @@ h1{text-align: center;
 font-size: 10em;
 }
 
-.home{background-image: url(/img/home.jpeg);
+.home{background-image: url(https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fill,g_auto,w_1500/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2018%2F03%2F55cd28cae8ee78fe1e52ab1adc9eafff24c9af92.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
@@ -55,7 +55,7 @@ h2{text-align: center;
   }
   
   
-  .active {
+  .home_nav {
     background-color: red;
   }
   
@@ -78,9 +78,38 @@ font-size: xx-large;
 font-family: 'Alex Brush';font-size: 40px;
 }
 
-.orderhtml{background-image: url(https://bit.ly/39gc4FF);}
+.orderhtml{background-image: url(https://bit.ly/39gc4FF);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: auto;
+display: flex;
+flex-direction: column;
+align-items: left;
+justify-content: left;
+max-height: 22500px;
+max-width: 2000px;
+float: center;
+padding-bottom: 150px;
+padding-top: 150px;
+color: white;
+}
 
 #btn2{color: red;
     font-size: xx-large;
 }
+
+.orderlink{align-items: center;
+}
+
+#panel, #flip {
+    padding: 5px;
+    text-align: center;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
     
