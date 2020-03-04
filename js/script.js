@@ -3,7 +3,7 @@
 //       $("#panel").slideDown("slow");
 //     });
 //   });
-  function getSizeValue() {
+  function getSize() {
     var selectedValue = document.getElementById("size").value;
     return parseInt(selectedValue);
 }
@@ -20,7 +20,7 @@ function getQuantity() {
     return parseInt(selectedQuantity);
 }
 function getTotalAmount() {
-    var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
+    var totalAmount = (getSize() + getCrust() + getToppings()) * getQuantity();
     alert("You have Ordered" + getQuantity("")  +  " pizza."  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  " Thank you for your order welcome again.");
     prompt("Please enter your location")
     alert("You delivery fee is 200/=")
