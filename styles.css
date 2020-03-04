@@ -2,7 +2,7 @@ h1{text-align: center;
 font-size: 10em;
 }
 
-.home{background-image: url(https://cdn.apartmenttherapy.info/image/fetch/f_auto,q_auto:eco,c_fill,g_auto,w_1500/https%3A%2F%2Fstorage.googleapis.com%2Fgen-atmedia%2F3%2F2018%2F03%2F55cd28cae8ee78fe1e52ab1adc9eafff24c9af92.jpeg);
+.home{background-image: url(https://bit.ly/2TzUDtl);
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
@@ -17,6 +17,7 @@ font-size: 10em;
     padding-top: 150px;
     color: white;
     font-family: 'Trade Winds';font-size: 22px;
+    background-size: cover;
 }
 p{color: black;
 font-size: xx-large;
