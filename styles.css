@@ -40,7 +40,7 @@ h2{text-align: center;
     overflow: auto;
   }
   
-  /* Navbar links */
+  
   .navbar a {
     float: left;
     text-align: center;
@@ -60,7 +60,7 @@ h2{text-align: center;
     background-color: red;
   }
   
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  
   @media screen and (max-width: 500px) {
     .navbar a {
       float: none;
@@ -114,5 +114,11 @@ color: white;
     display: none;
   } */
 
-  #submit2{text-align: center;}
-    
+  #submit2{
+    text-align: center;
+  }
+  .contact{background-image: url(https://bit.ly/2PP36rs);
+  text-align: center;
+font-family: cursive;
+}
+#quantity{text-align: center;}

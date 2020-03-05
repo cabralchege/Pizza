@@ -32,55 +32,78 @@
     <div class="col-md-4">
         <h4>CRUSTS</h4>
         <img src="https://bit.ly/2CyF9hb" height="250px" width="250px">
-        <button type="submit" form="form1" onclick="getCrust();" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
-                aria-hidden="true"></i>&nbsp; &nbsp;
+        <!-- <button type="submit" form="form1" onclick="getCrust();" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
+                aria-hidden="true"></i>&nbsp; &nbsp; -->
+                <select style="background: transparent;" name="crust" id="crust">                
+                    <option value="">Choose option</option>
+                    <option value="100">Meat-stuffed=ksh 300</option>
+                    <option value="70">Cheese-filled =ksh 170</option>
+                    <option value="70">Thin =ksh 170</option>
+                    <option value="70">Thick =ksh 170</option>
+                  </select>
+                </div>
 
         </button>
     </div>
     <div class="col-md-4">
         <h4>TOPPINGS</h4>
         <img src="https://bit.ly/2xabvzh" height="200px" width="250px">
-        <button type="submit" form="form1" value="Submit" id="ok"  onclick="getToppings();">ADD TO CART&nbsp; &nbsp; <i
-                class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; &nbsp;</button>
+        <!-- <button type="submit" form="form1" value="Submit" id="ok"  onclick="getToppings();">ADD TO CART&nbsp; &nbsp; <i
+                class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; &nbsp;</button> -->
+                <select style="background: transparent;" name="crust" id="crust">                
+                    <option value="">Choose option</option>
+                    <option value="60">pepperoni =ksh200</option>
+                    <option value="60">green papers =ksh70</option>
+                    <option value="60">bacon =ksh100</option>
+                    <option value="60">onions =ksh10</option>
+                </select>
     </div>
-    <!-- <div id="#flip">     -->
+    
         <div class="col-md-4">
             <h4>Pizza Size</h4>
                 <img src="https://bit.ly/38ltDmD" height="200px" width="250px">
+                <select style="background: transparent;" name="crust" id="crust">   
+                    <option value="">Choose option</option>             
+                    <option value="1000">Large =ksh 1000</option>
+                    <option value="800">Medium =ksh 800</option>
+                    <option value="500">Small= ksh500</option>
+                </select>
+                <br><br>
+                <label for="quantity" style="color: red">Quantity</label>
+                        <input class="form-control" type="text" style="text-align: center;" name="pizza" id="quantity" placeholder="0" max="1000"
+                            min="0">
+                    </div><br><br><br><br><br>
+                    <button class="btn btn-success mx-auto d-block submit" type="button" id="submit2"
+                        onclick="getTotalAmount();"><strong>Finish Order</strong></button>
                 
     </div>
-                <div id="panel"><button type="submit" form="form1" onclick="getSize();" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
+                <!-- <div id="panel"><button type="submit" form="form1" onclick="getSize();" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
                     aria-hidden="true"></i>&nbsp; &nbsp;</button>
-                </div>
+                </div> -->
 
         
     
     
     
-    <div class="container">
+    <!-- <div class="container">
         <div id="form">
             <form>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3"> -->
 
-                        <label for="size" style="color:red">Size</label>
+                        <!-- <label for="size" style="color:red">Size</label>
                         <select class="browser-default custom-select" id="size">
                             <option value="">Choose option</option>
                             <option value="1000">Large =ksh 1000</option>
                             <option value="800">Medium =ksh 800</option>
-                            <option value="500">Small= ksh500</option>
+                            <option value="500">Small= ksh500</option> -->
                         </select><br>
                     </div>
-                    <div class="col-md-3">
+                    <!-- <div class="col-md-3">
 
                         <label for="crusts" style="color:red">Crust</label>
                         <select class="browser-default custom-select" id="crust">
-                            <option value="">Choose option</option>
-                            <option value="150">Crispy =ksh 150</option>
-                            <option value="100">Meat-stuffed=ksh 300</option>
-                            <option value="70">Cheese-filled =ksh 170</option>
-                            <option value="70">Thin =ksh 170</option>
-                            <option value="70">Thick =ksh 170</option>
+                          
                         </select><br>
                     </div>
                     <div class="col-md-3">
@@ -89,29 +112,25 @@
                         <select class="browser-default custom-select" id="toppings">
                             <option value="">Choose option</option>
                             <option value="60">Extra cheese =ksh220</option>
-                            <option value="60">pepperoni =ksh200</option>
-                            <option value="60">green papers =ksh70</option>
-                            <option value="60">bacon =ksh100</option>
-                            <option value="60">onions =ksh10</option>
+                            
                         </select>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3"> -->
 
-                        <label for="quantity" style="color: red">Quantity</label>
-                        <input class="form-control" type="text" name="pizza" id="quantity" placeholder="0" max=""
-                            min="0">
-                    </div><br><br><br><br><br>
-                    <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
-                        onclick="getTotalAmount();"><strong>Finish Order</strong></button>
-                </div>
-            </form>
+                        
+                <!-- </div>
+            </form> -->
 
 
         </div>
     </div>
     </div>
 
-    <script src="js/jquery.js"></script>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  
     <script src="js/script.js"></script>
 </body>
 </html>
