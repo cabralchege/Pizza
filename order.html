@@ -50,7 +50,7 @@
         <img src="https://bit.ly/2xabvzh" height="200px" width="250px">
         <!-- <button type="submit" form="form1" value="Submit" id="ok"  onclick="getToppings();">ADD TO CART&nbsp; &nbsp; <i
                 class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp; &nbsp;</button> -->
-                <select style="background: transparent;" name="crust" id="crust">                
+                <select style="background: transparent;" name="crust" id="toppings">                
                     <option value="">Choose option</option>
                     <option value="60">pepperoni =ksh200</option>
                     <option value="60">green papers =ksh70</option>
@@ -62,7 +62,7 @@
         <div class="col-md-4">
             <h4>Pizza Size</h4>
                 <img src="https://bit.ly/38ltDmD" height="200px" width="250px">
-                <select style="background: transparent;" name="crust" id="crust">   
+                <select style="background: transparent;" name="crust" id="size">   
                     <option value="">Choose option</option>             
                     <option value="1000">Large =ksh 1000</option>
                     <option value="800">Medium =ksh 800</option>
@@ -74,7 +74,7 @@
                             min="0">
                     </div><br><br><br><br><br>
                     <button class="btn btn-success mx-auto d-block submit" type="button" id="submit2"
-                        onclick="getTotalAmount();"><strong>Finish Order</strong></button>
+                        onclick='getTotalAmount()';><strong>Finish Order</strong></button>
                 
     </div>
                 <!-- <div id="panel"><button type="submit" form="form1" onclick="getSize();" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-cart"
@@ -131,6 +131,6 @@
     integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>
   
-    <script src="js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
